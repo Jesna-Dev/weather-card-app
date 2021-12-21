@@ -4,10 +4,14 @@ import Weather from './weatherComponent';
 
 function App() {
   return (
-    <main>
+    <div>
+    <header>
       <h1>WEATHER FORECAST</h1>
+    </header>
+    <main>
       <Weather/>
     </main>
+    </div>
   );
 }
 export default App;

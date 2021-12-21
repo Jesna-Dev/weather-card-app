@@ -1,10 +1,8 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './App.css';
-// import styles from './Weather.module.css';
 
 export default function Weather() {
-
   const [date, setDate] = useState(null);
   const [time, setTime] = useState(null);
   const [loading, setLoadingState] = useState(true);
