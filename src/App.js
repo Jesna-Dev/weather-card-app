@@ -5,12 +5,12 @@ import Weather from './weatherComponent';
 function App() {
   return (
     <div>
-    <header>
+      <header>
       <h1>WEATHER FORECAST</h1>
-    </header>
-    <main>
-      <Weather/>
-    </main>
+        </header>
+      <main>
+        <Weather />
+      </main>
     </div>
   );
 }

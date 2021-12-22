@@ -24,7 +24,7 @@ export default function Weather() {
 
   useEffect(() => {
     async function getWeather() {
-      //API DOC https://www.codegrepper.com/code-examples/javascript/weather+api+without+key
+      //API https://fcc-weather-api.glitch.me
       //CSS Gradients https://cssgradient.io/gradient-backgrounds/
 
       var today = new Date();
@@ -47,7 +47,7 @@ export default function Weather() {
       setCity(data.name);
       setTemperature(data.main.temp);
       setFeeslLike(data.main.feels_like);
-      setShortWeather(data.weather[0].main)
+      setShortWeather(data.weather[0].main);
 
       setHumidity(data.main.humidity);
       setPressure(data.main.pressure);
